@@ -1,0 +1,27 @@
+{
+  "name": "fableelmishdemo",
+  "version": "1.0.0",
+  "description": "a simple fable-elmish demonstration",
+  "main": "index.js",
+  "scripts": {
+    "build": "fable",
+    "webserver": "node node_modules/node-static/bin/cli.js -p 8080 ."
+  },
+  "author": "Wolfgang Kinkeldei",
+  "license": "MIT",
+  "devDependencies": {
+    "fable-compiler": "^0.6.15",
+    "node-static": "^0.7.9",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "fable-core": "^0.6.8",
+    "fable-elmish": "^0.4.1",
+    "fable-elmish-react": "^0.1.1",
+    "fable-import-react": "^0.5.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+
+}
