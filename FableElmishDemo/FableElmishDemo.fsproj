@@ -56,6 +56,7 @@
     <Compile Include="node_modules/fable-elmish-react/elmish-app.fs" />
     <Compile Include="node_modules/fable-elmish-react/elmish-react.fs" />
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Component.fs" />
     <Compile Include="App.fs" />
     <None Include="package.json" />
     <Content Include="readme.txt" />
